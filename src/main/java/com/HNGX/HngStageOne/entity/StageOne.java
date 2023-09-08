@@ -23,7 +23,7 @@ public class StageOne {
     @Column(nullable = false)
     private String currentDay;
 
-    @Column(nullable = false)
+    @Column(nullable = false,name = "current_utc_time")
     private LocalTime utcTime;
 
     @Column(nullable = false)
@@ -37,6 +37,5 @@ public class StageOne {
 
     @Column(nullable = false)
     private int statusCode;
-//    Current UTC time (with validation of +/-2)
 
 }

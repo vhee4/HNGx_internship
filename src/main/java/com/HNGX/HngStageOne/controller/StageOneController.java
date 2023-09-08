@@ -17,7 +17,7 @@ public class StageOneController {
         return stageOneService.createData(request);
     }
     @GetMapping
-    public StageOneResponse GetData(@RequestParam(name = "slackName") String slackName,
+    public StageOneResponse GetData(@RequestParam(name = "slack_name") String slackName,
                                     @RequestParam(name = "track")String track) {
         return stageOneService.GetData(slackName, track);
     }

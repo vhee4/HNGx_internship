@@ -12,6 +12,4 @@ import lombok.NoArgsConstructor;
 public class StageOneRequest {
     private String slackName;
     private String track;
-    private String githubFileUrl;
-    private String githubRepoUrl;
 }
