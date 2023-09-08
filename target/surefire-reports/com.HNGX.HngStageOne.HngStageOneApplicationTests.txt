@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.HNGX.HngStageOne.HngStageOneApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.921 s - in com.HNGX.HngStageOne.HngStageOneApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.758 s - in com.HNGX.HngStageOne.HngStageOneApplicationTests

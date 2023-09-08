@@ -51,4 +51,11 @@ public class StageOneController {
         return response;
     }
 
+    public static void main(String[] args) {
+        LocalDateTime localDateTime = LocalDateTime.now(ZoneOffset.UTC);
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss'Z'");
+        String formattedDateTime = localDateTime.format(formatter);
+        System.out.println(formattedDateTime);
+    }
+
 }
