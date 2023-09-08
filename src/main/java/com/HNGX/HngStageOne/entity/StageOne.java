@@ -24,9 +24,6 @@ public class StageOne {
     @Column(nullable = false)
     private String currentDay;
 
-    @Column(nullable = false,name = "current_utc_time")
-    private String utcTime;
-
     @Column(nullable = false)
     private String track;
 
