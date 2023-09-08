@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 import org.springframework.http.HttpStatus;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.LocalTime;
 
 @Data
@@ -20,7 +21,7 @@ public class StageOneResponse {
     @JsonProperty("current_day")
     private String currentDay;
     @JsonProperty("utc_time")
-    private LocalTime utcTime;
+    private String utcTime;
     @JsonProperty("track")
     private String track;
     @JsonProperty("github_file_url")

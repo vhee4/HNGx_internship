@@ -3,6 +3,7 @@ package com.HNGX.HngStageOne.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.time.LocalDateTime;
 import java.time.LocalTime;
 
 @AllArgsConstructor
@@ -24,7 +25,7 @@ public class StageOne {
     private String currentDay;
 
     @Column(nullable = false,name = "current_utc_time")
-    private LocalTime utcTime;
+    private String utcTime;
 
     @Column(nullable = false)
     private String track;
