@@ -1,21 +1,21 @@
-version: '3.8'
-
-services:
-
-
-  db:
-    image: mysql:8.0
-    container_name: mysqldb
-    environment:
-      DATABASE_HOST: docker-mysql
-      DATABASE_PORT: 3306
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: hng_stage_one
-#      MYSQL_USER: root
-#      MYSQL_PASSWORD: root
-    networks:
-      springboot-mysql-net:
-
-networks:
-  springboot-mysql-net:
-
+#version: '3.8'
+#
+#services:
+#
+#
+#  db:
+#    image: mysql:8.0
+#    container_name: mysqldb
+#    environment:
+#      DATABASE_HOST: docker-mysql
+#      DATABASE_PORT: 3306
+#      MYSQL_ROOT_PASSWORD: root
+#      MYSQL_DATABASE: hng_stage_one
+##      MYSQL_USER: root
+##      MYSQL_PASSWORD: root
+#    networks:
+#      springboot-mysql-net:
+#
+#networks:
+#  springboot-mysql-net:
+#
